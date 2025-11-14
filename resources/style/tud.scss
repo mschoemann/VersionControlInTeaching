@@ -1,0 +1,43 @@
+/*-- scss:defaults --*/
+// fonts
+// may not be needed, see YAML header
+
+//@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wdth,wght@0,62.5..100,100..900;1,62.5..100,100..900&display=swap');
+//@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&family=Noto+Sans:ital,wdth,wght@0,62.5..100,100..900;1,62.5..100,100..900&display=swap');
+
+//$presentation-heading-font: "Noto Sans SemiBold 600", sans-serif;
+//$font-family-sans-serif: "Noto Sans Regular 400", sans-serif;
+//$font-family-monospace: "Noto Sans Mono Regular 400", monospace;
+
+//$presentation-heading-font: "Noto Sans", sans-serif;
+//$font-family-sans-serif: "Noto Sans", sans-serif;
+//$font-family-monospace: "Noto Sans Mono", monospace;
+
+
+// font size
+// don't get how it works
+$presentation-font-size-root: 32pt;
+//$presentation-h1-font-size: 20pt;
+//$presentation-h2-font-size: 20pt;
+//$code-block-font-size: 0.9em;
+
+//colors
+$theme-brilliantblue: #00008C;
+$theme-darkblue: #001450;
+$theme-oliv1: #767A23;
+$theme-oliv2: #D2DC46;
+$theme-green1: #007D48;
+$theme-green2: #8CE6AA;
+$theme-turquois1: #0A777F;
+$theme-green2: #8CE6D7;
+$theme-white: #F7F8F9;
+
+$body-bg: $theme-white;
+$body-color: $theme-darkblue;
+$presentation-heading-color: $theme-brilliantblue;
+$link-color: $theme-green1;
+$code-color: $theme-oliv1;
+
+
+
+/*-- scss:rules --*/

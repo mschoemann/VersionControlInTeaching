@@ -1,0 +1,48 @@
+---
+title: "Dann machen wir das gleich ordentlich!"
+subtitle: "Versionskontrolle mit Git in der Lehre für Social Sciences"
+author: "R. Dutschke, C. Scheffel, M. Schoemann, G. Thiele"
+
+# bibliography: 
+
+format:
+  revealjs: 
+    height: 1080
+    width: 1920
+    logo: ../resources/logos/TUD_Bildmarke_RGB_blau.svg
+    footer: "FDMSax 21.11.2025 | R. Dutschke, C. Scheffel, M. Schoemann, G. Thiele"
+    slide-number: true
+    show-slide-number: all
+    slide-level: 2
+    theme: [default, ../resources/style/tud.scss]
+    toc: false
+    toc-depth: 1
+    toc-title: Outline
+    preview-links: false
+    self-contained: true
+    mainfont: "Noto Sans"
+---
+
+
+# Kennenlernen
+
+# Motivation
+
+# Versionkontrolle mit git
+
+# Wrap-up
+
+# Praxisarbeit
+
+
+# Vielen Dank! {visibility="uncounted"}
+
+
+## Quellen {visibility="uncounted"}
+::: {#refs}
+:::
+
+
+
+
+

@@ -1,0 +1,15 @@
+# R
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+# Quarto
+*.yml
+_extensions/
+/.quarto/
+
+**/*.quarto_ipynb
+
+# Specifics
+*.html
