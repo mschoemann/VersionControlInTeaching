@@ -28,7 +28,212 @@ format:
 
 # Motivation
 
+## Warum Git?
+
+- Änderungen nachvollziehen  
+- Zu früheren Versionen zurückspringen  
+- Zusammenarbeit erleichtern  
+- Vermeidung von Dateien wie:  
+  `projekt_final.docx`, `projekt_final_final.docx`, `wirklich_final.docx`
+
 # Versionkontrolle mit git
+
+## Git & GitHub
+
+**Git**  
+- Lokales Versionskontrollsystem  
+- Verfolgt Änderungen an Dateien  
+- Ermöglicht Branches, Commits und Merges  
+
+**GitHub**  
+- Plattform zur Speicherung von Git-Repositories  
+- Online-Zusammenarbeit (Issues, Pull Requests, Wiki, Projects)  
+- Backup & Veröffentlichung von Code und Daten
+
+## Grundbegriffe
+
+- **Repository (Repo)**: Projektordner, den Git verfolgt  
+- **Commit**: Ein eingefrorener Stand deiner Änderungen  
+- **Branch**: Eine alternative Zeitleiste für neue Features  
+- **Merge**: Zusammenführen zweier Branches  
+- **Remote**: Online-Version (z. B. GitHub)  
+- **Clone**: Eine Kopie eines GitHub-Repos auf deinem Rechner  
+- **Fork**: Eine unabhängige persönliche Kopie eines fremden GitHub-Repos  
+
+---
+
+## Git Workflow – Das Grundprinzip
+
+1. **pull** – neueste Änderungen holen  
+2. Änderungen lokal durchführen  
+3. **commit** – Änderungen speichern  
+4. **push** – Änderungen hochladen  
+
+## Git Workflow – Das Grundprinzip
+
+1. Neueste Änderungen abrufen (**pull**)  
+2. Lokal arbeiten  
+3. Änderungen festhalten (**commit**)  
+4. Änderungen hochladen (**push**)  
+
+---
+
+## Repository erstellen
+
+### Auf GitHub  
+- Neues Repository anlegen  
+- README optional hinzufügen  
+- Lizenzen definieren  
+- Collaborators einladen  
+
+### Lokal  
+- Ein bestehender Projektordner kann zu einem Git-Repository gemacht werden  
+- Danach kann es mit GitHub verbunden werden
+
+---
+
+## Repository klonen
+
+Wenn ein Projekt bereits existiert, kann eine vollständige Arbeitskopie erstellt werden:
+
+- Alle Dateien werden übernommen  
+- Die komplette Versionshistorie ist verfügbar  
+- Änderungen können anschließend lokal vorgenommen werden
+
+---
+
+## Fork vs. Clone
+
+**Clone**  
+- Geeignet, wenn man Schreibrechte besitzt  
+- Dient zum direkten Mitarbeiten am Originalprojekt  
+
+**Fork**  
+- Notwendig bei fehlenden Schreibrechten  
+- Erst wird eine eigene Kopie des Projekts im eigenen GitHub-Account erstellt  
+- Danach klont man diese Kopie  
+- Änderungen werden später als Vorschlag (Pull Request) zurückgegeben
+
+---
+
+## Änderungen prüfen
+
+Git zeigt an, welche Dateien neu, verändert oder bereit zum Speichern (Commit) sind.
+
+Dies hilft zu verstehen:  
+- Was wurde seit dem letzten Arbeitsschritt verändert?  
+- Was soll in den nächsten Commit aufgenommen werden?  
+- Welche Dateien bleiben unverändert?
+
+---
+
+## Änderungen committen
+
+- Ein Commit enthält eine nachvollziehbare, kommentierte Änderungseinheit  
+- Die Commit-Nachricht beschreibt kurz und klar, *was* und ggf. *warum* etwas geändert wurde  
+- Gute Commits erleichtern spätere Nachvollziehbarkeit
+
+---
+
+## Pull & Push
+
+**Pull**  
+- Holt Änderungen des Teams auf den eigenen Computer  
+- Verhindert Konflikte vor der eigenen Arbeit
+
+**Push**  
+- Überträgt eigene Änderungen wieder nach GitHub  
+- Macht sie für alle sichtbar und verfügbar
+
+---
+
+## Branches
+
+Mit Branches kann man:
+
+- Neue Funktionen entwickeln  
+- Fehler beheben  
+- Experimente durchführen  
+- Ohne das Hauptprojekt zu beeinträchtigen  
+
+Branches erlauben paralleles Arbeiten in Teams oder einzeln.
+
+---
+
+## Merge & Pull Requests
+
+**Merge**  
+- Führt die Arbeit eines Branches in einen anderen zusammen  
+- Wird genutzt, um fertige Arbeit in die Hauptversion zu integrieren
+
+**Pull Request (PR)**  
+- Öffnet eine Diskussion auf GitHub über geplante Änderungen  
+- Ermöglicht Reviews, Kommentare und Qualitätssicherung  
+- Erst danach wird gemergt
+
+---
+
+## Konflikte lösen
+
+Konflikte entstehen, wenn zwei Personen dieselbe Stelle einer Datei unterschiedlich ändern.
+
+Typischer Ablauf:  
+1. Git meldet einen Konflikt  
+2. Betroffene Stellen werden manuell überarbeitet  
+3. Ergebnis wird gespeichert und bestätigt  
+4. Danach kann die Arbeit normal fortgesetzt werden
+
+---
+
+## GitHub Desktop
+
+- Grafisches Werkzeug für Git  
+- Ideal für Einsteiger:innen  
+- Zeigt übersichtlich alle Änderungen, Commits und Branches  
+- Push/Pull mit einem Klick  
+
+---
+
+## Visual Studio Code
+
+- Leistungsstarker Code-Editor  
+- Eingebaute Git-Unterstützung  
+- Visualisierung von Änderungen  
+- Erweiterungen für Quarto, Markdown, R, Python u.v.m.  
+- Dark Mode inklusive (für Fans 😄)
+
+---
+
+## Vorteile von Git & GitHub
+
+- Transparenz über die gesamte Projektentwicklung  
+- Jede Änderung bleibt nachvollziehbar  
+- Wissenschaftliche Reproduzierbarkeit  
+- Einfachere Zusammenarbeit im Team  
+- Zentrale Speicherung und Backup  
+
+---
+
+## Herausforderungen
+
+- Neue Begriffe und Abläufe  
+- Anfangs ungewohnt  
+- Unterschiedliches Verhalten von Git-Tools auf verschiedenen Betriebssystemen  
+- Mit guter Software (GitHub Desktop, VS Code) wird der Einstieg deutlich leichter
+
+---
+
+## Beispielworkflow für Quarto / RMarkdown
+
+1. Repository erzeugen oder klonen  
+2. Quarto- oder RMarkdown-Datei bearbeiten  
+3. Änderungen speichern und in sinnvollen Einheiten committen  
+4. Regelmäßig Änderungen aus GitHub abrufen  
+5. Eigene Änderungen hochladen  
+6. Bei paralleler Arbeit Branches nutzen  
+7. Mergen oder Pull Request erstellen  
+
+---
 
 # Wrap-up
 
