@@ -23,6 +23,12 @@ format:
     mainfont: "Noto Sans"
 ---
 
+```{r Setup}
+#| echo: false
+
+library(nomnoml)
+```
+
 
 # Kennenlernen
 
@@ -44,30 +50,36 @@ format:
 - Verfolgt Änderungen an Dateien innerhalb eines Ordners/Projekts
 - Zentrales Element ist der **Commit**
 
+```{nomnoml}
+#direction: right
+#font: Noto Sans
+[Commit 1| 
+   [<note> A] -/- [<label> Datei 1] | 
+   [<note> A] -/- [<label> Datei 2] | 
+   [<note> A] -/- [<label> Datei 3]
+ ]
 
-```{mermaid}
-%%| fig-width: 10
-%%| fig-height: 10
+[Commit 2| 
+   [<note> 0] -/- [<label> Datei 1] | 
+   [<note> 0] -/- [<label> Datei 2] | 
+   [<note> M] -/- [<label> Datei 3]
+ ]
 
-flowchart LR
-  A["`**Commit 1**
-  *A* Datei 1
-  *A* Datei 2
-  *A* Datei 3`"]
+[Commit 3| 
+   [<note> M] -/- [<label> Datei 1] | 
+   [<note> 0] -/- [<label> Datei 2] | 
+   [<note> D] -/- [<label> Datei 3]
+ ]
 
-  B["`**Commit 2**
-  0 Datei 1
-  0 Datei 2
-  *M* *Datei 3*`"]
+[Commit 1] -> [Commit 2] -> [Commit 3]
 
-  C["`**Commit 3**
-  *M* *Datei 1*
-  *D* <s>Datei 2</s>
-  0 Datei 3`"]
-
-  A --> B
-  B --> C
 ```
+
+::: aside
+A = Datei hinzugefügt ("added"), 0 = keine Änderung, M = Datei geändert ("modified"), D = Datei gelöscht ("deleted")
+:::
+
+
 
 ## Remotes
 
@@ -75,17 +87,15 @@ flowchart LR
 - typischer Fall: lokales Repositorium wird mit einem "Remote" hintersichert
 - verknüpfte Repositorien können abgeglichen werden
 
-
-```{mermaid}
- 
-flowchart TB
-  A[local git]
-  B[remote git]
-
-  A -- push --> B
-  B -- pull --> A
+```{nomnoml}
+#direction: down
+#font: Noto sans
+[local git] -> push [remote git]
+[remote git] -> pull [local git]
 
 ```
+
+
 
 ## GitHub & GitLab 
 
@@ -93,24 +103,21 @@ flowchart TB
 - Online-Zusammenarbeit (Issues, Pull Requests, Wiki, Projects)  
 - Backup & Veröffentlichung von Code und Daten
 
-```{mermaid}
- 
-flowchart TB
-  A[local git]
-  B[remote git]
-  C[another local git]
-  D[yet another local git]
+```{nomnoml}
+#direction: down
+#font: Noto
 
-  A -- push --> B
-  B -- pull --> A
-  
-  C -- push --> B
-  B -- pull --> C
-  
-  D -- push --> B
-  B -- pull --> D
+[local git] <-> [remote git]
+# [remote git] -> pull [local git]
+
+[remote git] <-> [another local git]
+# [another local git] -> push [remote git]
+
+[remote git] <-> [yet another local git]
+# [yet another local git] -> push [remote git]
 
 ```
+
 
 **Wichtig**:  
 Jedes Repositorium ist alleinstehend.
@@ -118,9 +125,10 @@ Der Abgleich mit dem Remote (oder anderen Repositorien) erfolgt immer nur manuel
 
 ## Wichtige git Befehle
 
-- **clone**: ein Remote-Repositorium kopieren udn als lokales Repositorium einrichten
-- **stage**: Änderungen in Dateien für einen Commit vorbereiten
+- **clone**: ein Remote-Repositorium kopieren und als lokales Repositorium einrichten
+- **stage**: Änderungen in Dateien für einen Commit vorbereiten (synonym: **add**)
 - **commit**: Änderungen im Repositorium festhalten
+- **status**: zeigt alle Dateien mit Änderungen seit dem letzten Commit
 - **push**: den Stand des lokalen Repositoriums zum verknüpften Remote-Repositorium übertragen
 - **pull**: den Stand des Remote-Repositoriums zum lokalen Repositorium übertragen
 
