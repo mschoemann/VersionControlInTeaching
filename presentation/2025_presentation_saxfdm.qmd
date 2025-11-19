@@ -145,7 +145,11 @@ Unser Vorschlag: [**gittyup**](https://murmele.github.io/Gittyup/)
 - Nehmen Sie Änderungen in der Datei vor und/oder erstellen Sie zusätzliche Dateien. Überprüfen Sie in gittyup, wie diese Änderungen erfasst werden. Erstellen Sie einen neuen Commit, der wahlweise auch nur Teile der Änderungen beinhalten kann.
 - Senden Sie die Commits, die Sie bisher erstellt haben, zum Remote-Repositorium (-> Push). Achten Sie darauf, dass Sie tatsächlich im richtigen Branch ("Workshop") gearbeitet haben und diesen auch zum Remote schicken. Holen Sie die Änderungen der anderen vom Remote-Repositorium in ihr lokales Repositorium (-> Pull).
 
+<<<<<<< HEAD
 ## Branching
+=======
+# Beispielüberschrift
+>>>>>>> showcase
 
 <!-- ## Grundbegriffe -->
 
