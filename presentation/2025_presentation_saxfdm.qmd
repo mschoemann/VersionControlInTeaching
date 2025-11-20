@@ -99,7 +99,7 @@ A = Datei hinzugefügt ("added"), 0 = keine Änderung, M = Datei geändert ("mod
 
 ```
 
-
+![](../resources/figures/spidermanremotes.jpg)
 
 ## GitHub & GitLab 
 
@@ -127,12 +127,18 @@ A = Datei hinzugefügt ("added"), 0 = keine Änderung, M = Datei geändert ("mod
 Jedes Repositorium ist alleinstehend.
 Der Abgleich mit dem Remote (oder anderen Repositorien) erfolgt immer nur manuell mit **push** oder **pull**.
 
-## Wichtige git Befehle
+## Wichtige git Befehle (Teil 1)
 
 - **clone**: ein Remote-Repositorium kopieren und als lokales Repositorium einrichten
 - **stage**: Änderungen in Dateien für einen Commit vorbereiten (synonym: **add**)
 - **commit**: Änderungen im Repositorium festhalten
 - **status**: zeigt alle Dateien mit Änderungen seit dem letzten Commit
+- **checkout**: den aktuellen Branch wechseln *oder* den Zustand des Repositoriums oder einer Datei auf einen früheren Commit zurücksetzen
+
+![](../resources/figures/cheapcommits.jpg)
+
+## Wichtige git Befehle (Teil 2)
+
 - **push**: den Stand des lokalen Repositoriums zum verknüpften Remote-Repositorium übertragen
 - **pull**: den Stand des Remote-Repositoriums zum lokalen Repositorium übertragen
 
