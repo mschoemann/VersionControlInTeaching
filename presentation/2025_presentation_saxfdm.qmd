@@ -182,7 +182,18 @@ Holen Sie die Änderungen der anderen vom Remote-Repositorium in ihr lokales Rep
 ## Abzweigen & Zusammenführen
 
 -   (Neuer) **Branch:** Einen neuen Branch erstellen
--   **Checkout:** zu einem bestimmten Branch wechseln
+-   **Checkout:** Wechsel zu 
+    - einem anderen Branch
+    - einem anderen Commit
+    - einer Datei in einem bestimmten Commit
+
+## Abzweigen & Zusammenführen
+
+-   (Neuer) **Branch:** Einen neuen Branch erstellen
+-   **Checkout:** Wechsel zu 
+    - einem anderen Branch
+    - einem anderen Commit
+    - einer Datei in einem bestimmten Commit
 -   **Merge:** Branches zusammenführen
     -   Alle Änderungen beider Branches werden zusammengeführt (d.h. der aktuellste Stand der beiden Branches)
     -   Merging ist **nicht destruktiv**: beide Branches existieren weiterhin
@@ -242,8 +253,8 @@ Weiterlesen: - [Guide zum Lösen von Merge-Konflikten](https://www.atlassian.com
 
 ## Cherrypicking
 
--   **gezieltes Auswählen einzelner Commits** aus einem Branch, um sie in einen anderen Branch zu übernehmen
--   Kopie des Commits wird an den anderen Branch angehängt (**non-destruktiv**)
+-   **gezieltes Auswählen einzelner Commits** aus einem Branch, um sie im gleichen oder in einen anderen Branch zu übernehmen
+-   Kopie des Commits wird in den anderen Branch gemerged (**non-destruktiv**)
 -   Wichtig: Commits müssen gut strukturiert sein
 
 ![](../resources/figures/cherrypick.png){fig-align="center"}
