@@ -5,7 +5,7 @@
 .Ruserdata
 
 # Quarto
-*.yml
+#*.yml
 #_extensions/
 /.quarto/
 
