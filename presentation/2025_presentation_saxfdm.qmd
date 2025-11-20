@@ -38,7 +38,7 @@ library(nomnoml)
 # {{< bi aspect-ratio-fill >}} Motivation
 
 
-## Warum Git?
+## Warum Git? (mache ich noch; MS)
 
 - Änderungen nachvollziehen  
 - Zu früheren Versionen zurückspringen  
