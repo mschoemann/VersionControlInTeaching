@@ -462,7 +462,7 @@ Weiterlesen: - [Guide zum Lösen von Merge-Konflikten](https://www.atlassian.com
 -   Fügen Sie in das Repositorium Lehrmaterialien, etc. ein. Probieren Sie dabei grundlegende Funktionen von Git aus, die Sie heute kennen gelernt haben (z.B. Commit, Push, Pull, etc.)
 -   Überlegen Sie sich, welche weiteren Funktionen von Git (z.B. Branching, Forking) für Ihren Anwendungsfall sinnvoll sind, welche vielleicht aber eher hinderlich sind.
 
--   Zeit: ca. 20 min
+-   <span style="color:darkred;">Zeit: ca. 20 min</span>
 
 ## Praxis: Alternative - vorhandene Projekte entdecken
 
@@ -471,7 +471,7 @@ Weiterlesen: - [Guide zum Lösen von Merge-Konflikten](https://www.atlassian.com
       - Warum war die Umsetzung mittels Git für uns sinnvoll? 
       - Welche Funktionen von Git haben wir in dem Projekt besonders geschätzt?
 
--   Zeit: ca. 20 min
+-   <span style="color:darkred;">Zeit: ca. 20 min</span>
 
 # Vielen Dank! {visibility="uncounted"}
 
