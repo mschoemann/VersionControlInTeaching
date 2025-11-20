@@ -253,8 +253,8 @@ Weiterlesen: - [Guide zum Lösen von Merge-Konflikten](https://www.atlassian.com
 
 ## Cherrypicking
 
--   **gezieltes Auswählen einzelner Commits** aus einem Branch, um sie in einen anderen Branch zu übernehmen
--   Kopie des Commits wird an den anderen Branch angehängt (**non-destruktiv**)
+-   **gezieltes Auswählen einzelner Commits** aus einem Branch, um sie im gleichen oder
+-   Kopie des Commits wird in den anderen Branch gemerged (**non-destruktiv**)
 -   Wichtig: Commits müssen gut strukturiert sein
 
 ![](../resources/figures/cherrypick.png){fig-align="center"}
@@ -271,14 +271,16 @@ Weiterlesen: - [Guide zum Lösen von Merge-Konflikten](https://www.atlassian.com
 
 ![](../resources/figures/fork.png){fig-align="center"}
 
-## Ausprobieren
+## {{< bi code-square >}} Praktische Arbeit
+### Fortgeschrittenes ausprobieren
 
--   Erstellen Sie einen neuen Branch in ihrem Repositorium.
--   Ändern oder erstellen Sie eine Datei im Branch und committen sie die Veränderung im Branch. Versuchen sie dann den Branch mit dem Workshop-Branch (oder einem anderen) zu mergen.
--   Provozieren sie einen Merge-Konflikt in zwei Branches (z.B. verschiedene Versionen der gleichen Zeile einer Datei) und lösen Sie den Konflikt in GittyUp.
--   Bonus: Erstellen Sie sich einen weiteren zusätzlichen Branch und probieren Sie mit den beiden von Ihnen erstellten Branches Rebasing, Squashing und Cherrypicking aus.
+-   Erstellen Sie einen neuen Branch in ihrem Repositorium
+-   Ändern oder erstellen Sie eine Datei im Branch und committen sie die Veränderung im Branch 
+-   Versuchen sie dann den Branch mit dem Workshop-Branch (oder einem anderen) zu mergen
+-   Provozieren sie einen Merge-Konflikt in zwei Branches (z.B. verschiedene Versionen der gleichen Zeile einer Datei) und lösen Sie den Konflikt in GittyUp
+-   Bonus: Erstellen Sie sich einen weiteren zusätzlichen Branch und probieren Sie mit den beiden von Ihnen erstellten Branches Rebasing, Squashing und Cherrypicking aus
 
--   Zeit: ca. 10 min 
+{{< countdown "10:00" >}}
 
 ## Weitere Materialien
 
@@ -471,28 +473,30 @@ Weiterlesen: - [Guide zum Lösen von Merge-Konflikten](https://www.atlassian.com
 <!-- 7. Mergen oder Pull Request erstellen   -->
 
 ---
+# {{< bi suitcase-lg-fill >}} Wrap-up
 
-# Wrap-up
 
-## Praxis: Repositorium für eigenes Projekt erstellen
+# {{< bi wrench-adjustable-circle-fill >}} Praxis
 
+
+## {{< bi code-square >}} Repositorium für eigenes Projekt erstellen
 -   Überlegen Sie sich, für welche Lehrveranstaltung / welches Projekt sich Versionskontrolle mit Git eignen könnte
--   Erstellen Sie sich für dieses Projekt ein neues Repositorium in [GitHub](https://github.com/).
+-   Erstellen Sie sich für dieses Projekt ein neues Repositorium in [GitHub](https://github.com/)
 -   Erstellen Sie eine aussagekräftige README Datei
 -   Klonen Sie das Repositorium in einen lokalen Ordner Ihrer Wahl
 -   Fügen Sie in das Repositorium Lehrmaterialien, etc. ein. Probieren Sie dabei grundlegende Funktionen von Git aus, die Sie heute kennen gelernt haben (z.B. Commit, Push, Pull, etc.)
 -   Überlegen Sie sich, welche weiteren Funktionen von Git (z.B. Branching, Forking) für Ihren Anwendungsfall sinnvoll sind, welche vielleicht aber eher hinderlich sind.
 
--   <span style="color:darkred;">Zeit: ca. 20 min</span>
+{{< countdown "20:00" >}}
 
-## Praxis: Alternative - vorhandene Projekte entdecken
+## {{< bi code-square >}} Vorhandene Projekte entdecken
 
 -   Sollte Ihnen spontan kein geeignetes Projekt einfallen, zeigen wir Ihnen gern eigene Lehrveranstaltungen / Projekte, die wir mittels Git organisiert und umgesetzt haben.
 -   Wir berichten gern aus unserer Praxis: 
       - Warum war die Umsetzung mittels Git für uns sinnvoll? 
       - Welche Funktionen von Git haben wir in dem Projekt besonders geschätzt?
 
--   <span style="color:darkred;">Zeit: ca. 20 min</span>
+{{< countdown "20:00" >}}
 
 # Vielen Dank! {visibility="uncounted"}
 
