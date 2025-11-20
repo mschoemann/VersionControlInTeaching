@@ -477,64 +477,74 @@ Weiterlesen: - [Guide zum Lösen von Merge-Konflikten](https://www.atlassian.com
 
 <!-- Wird noch mit Motivationsfolie abgeglichen -->
 
-### Probleme vs. Lösungen in Lehrveranstaltungen & Abschlussarbeiten
+## Probleme und passende Lösungen
 
-:::: {.columns}
+<!--
+<div class="columns">
 
-::: {.column width="50%"}
+<div class="column" style="width: 48%;">
 
 ### **Herausforderungen**
-- **Versionschaos**  
-  Verschiedene Dateiversionen auf unterschiedlichen Geräten.
+- Versionschaos  
+- Unklare Verantwortlichkeiten  
+- Konflikte in Gruppenarbeiten  
+- Datenverlust  
+- Fehlende Nachvollziehbarkeit  
+- Schwierige Betreuung  
 
-- **Unklare Verantwortlichkeiten**  
-  Schwer nachvollziehbar, wer was geändert hat.
+</div>
 
-- **Konflikte in Gruppenarbeiten**  
-  Änderungen überschreiben sich gegenseitig.
-
-- **Datenverlust**  
-  Dateien werden versehentlich gelöscht oder überschrieben.
-
-- **Keine Nachvollziehbarkeit**  
-  Entwicklungs- und Arbeitsprozesse sind später nicht rekonstruierbar.
-
-- **Schwierige Betreuung**  
-  Feedback und Überprüfung von Arbeitsständen sind mühsam.
-
-:::
-
-::: {.column width="50%"}
+<div class="column" style="width: 48%;">
 
 ### **Git-Lösungen**
-- **Zentrale Versionskontrolle**  
-  Alle arbeiten an derselben Projektbasis – keine Dateiduplikate.
+- Zentrale Versionskontrolle verhindert Dateidoubletten  
+- Commit-Historie zeigt klar, wer was wann geändert hat  
+- Branches ermöglichen paralleles Arbeiten ohne Überschreiben  
+- GitHub als Backup schützt vor Verlust  
+- Vollständige Historie macht Arbeit transparent  
+- Pull Requests ermöglichen strukturierte Betreuung und Feedback  
 
-- **Commit-Historie**  
-  Jeder Schritt ist dokumentiert inkl. Autor und Zeitpunkt.
+</div>
 
-- **Branches für paralleles Arbeiten**  
-  Gruppenmitglieder arbeiten nebeneinander ohne sich zu stören.
+</div>
 
-- **Remote-Backups auf GitHub**  
-  Arbeit ist jederzeit gesichert und wiederherstellbar.
+-->
 
-- **Transparente Änderungsverläufe**  
-  Arbeitsprozesse lassen sich lückenlos nachvollziehen.
+<table>
+  <tr class="fragment">
+    <td><strong>Versionschaos</strong></td>
+    <td>Zentrale Versionskontrolle sorgt für eine gemeinsame Basis</td>
+  </tr>
+  <tr class="fragment">
+    <td><strong>Unklare Verantwortlichkeiten</strong></td>
+    <td>Commit-Historie zeigt genau, wer was wann geändert hat</td>
+  </tr>
+  <tr class="fragment">
+    <td><strong>Konflikte in Gruppenarbeiten</strong></td>
+    <td>Branches ermöglichen paralleles Arbeiten ohne Überschreiben</td>
+  </tr>
+  <tr class="fragment">
+    <td><strong>Datenverlust</strong></td>
+    <td>GitHub dient als zuverlässiges Online-Backup</td>
+  </tr>
+  <tr class="fragment">
+    <td><strong>Fehlende Nachvollziehbarkeit</strong></td>
+    <td>Vollständige Historie macht Arbeitsprozesse transparent</td>
+  </tr>
+  <tr class="fragment">
+    <td><strong>Schwierige Betreuung</strong></td>
+    <td>Pull Requests erleichtern Feedback, Review & Fortschrittskontrolle</td>
+  </tr>
+</table>
 
-- **Pull Requests & Reviews**  
-  Betreuende können strukturiert kommentieren und Änderungen prüfen.
+<div class="fragment">
+<br>
+<h3><strong>Fazit</strong></h3>
+<p><strong>Git bringt Ordnung, Transparenz und kollaborative Effizienz – ideal für Lehre, Projekte und Abschlussarbeiten.</strong></p>
+</div>
 
-:::
-
-::::
-
----
-
-### Fazit
-**Git bringt Ordnung, Transparenz und Teamfähigkeit – perfekte Grundlage für strukturierte Lehre und erfolgreiche Abschlussarbeiten.**
-
-
+## Fazit
+**Git schafft Ordnung, Transparenz und zuverlässige Zusammenarbeit – ideal für Lehre und Abschlussarbeiten.**
 
 # {{< bi wrench-adjustable-circle-fill >}} Praxis
 
