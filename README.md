@@ -21,7 +21,7 @@ Zeitplan benötigt noch Justierung
 
 ### TODO
 
--  Aufgabenfolien, blankos + timer (MS)
+-  Aufgabenfolien, blankos + timer (MS) - Done
 -  Beispiel-folien separat (MS) - Use Case + Funktionen + Link (alle)
 -  weiterführende Links (alle)
 -  rep vorbereiten (workshop branch, public, füllen)
