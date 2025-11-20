@@ -1,0 +1,43 @@
+---
+title: "Dann machen wir das gleich ordentlich!"
+subtitle: "Vorhandene Projekte entdecken"
+author: "R. Dutschke, C. Scheffel, M. Schoemann, G. Thiele"
+
+# bibliography: 
+
+format:
+  revealjs: 
+    height: 1080
+    width: 1920
+    logo: ../resources/logos/TUD_Bildmarke_RGB_blau.svg
+    footer: "SaxFDM 21.11.2025 | R. Dutschke, C. Scheffel, M. Schoemann, G. Thiele"
+    slide-number: true
+    show-slide-number: all
+    slide-level: 2
+    theme: [default, ../resources/style/tud.scss]
+    toc: false
+    toc-depth: 1
+    toc-title: Outline
+    preview-links: false
+    self-contained: true
+    mainfont: "Noto Sans"
+---
+
+```{r Setup}
+#| echo: false
+
+library(nomnoml)
+```
+
+## Praxisbeispiel 1
+
+
+## Praxisbeispiel 2
+
+
+## Praxisbeispiel 3
+
+
+
+
+
