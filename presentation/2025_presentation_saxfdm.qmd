@@ -145,6 +145,8 @@ Unser Vorschlag: [**gittyup**](https://murmele.github.io/Gittyup/)
 - Nehmen Sie Änderungen in der Datei vor und/oder erstellen Sie zusätzliche Dateien. Überprüfen Sie in gittyup, wie diese Änderungen erfasst werden. Erstellen Sie einen neuen Commit, der wahlweise auch nur Teile der Änderungen beinhalten kann.
 - Senden Sie die Commits, die Sie bisher erstellt haben, zum Remote-Repositorium (-> Push). Achten Sie darauf, dass Sie tatsächlich im richtigen Branch ("Workshop") gearbeitet haben und diesen auch zum Remote schicken. Holen Sie die Änderungen der anderen vom Remote-Repositorium in ihr lokales Repositorium (-> Pull).
 
+- Zeit: ca. 20 min
+
 ## Branching
 
 ::::: {layout="[ 90, 10 ]"}
@@ -254,6 +256,8 @@ Weiterlesen: - [Guide zum Lösen von Merge-Konflikten](https://www.atlassian.com
 -   Ändern oder erstellen Sie eine Datei im Branch und committen sie die Veränderung im Branch. Versuchen sie dann den Branch mit dem Workshop-Branch (oder einem anderen) zu mergen.
 -   Provozieren sie einen Merge-Konflikt in zwei Branches (z.B. verschiedene Versionen der gleichen Zeile einer Datei) und lösen Sie den Konflikt in GittyUp.
 -   Bonus: Erstellen Sie sich einen weiteren zusätzlichen Branch und probieren Sie mit den beiden von Ihnen erstellten Branches Rebasing, Squashing und Cherrypicking aus.
+
+-   Zeit: ca. 10 min 
 
 ## Weitere Materialien
 
@@ -449,8 +453,25 @@ Weiterlesen: - [Guide zum Lösen von Merge-Konflikten](https://www.atlassian.com
 
 # Wrap-up
 
-# Praxisarbeit
+## Praxis: Repositorium für eigenes Projekt erstellen
 
+-   Überlegen Sie sich, für welche Lehrveranstaltung / welches Projekt sich Versionskontrolle mit Git eignen könnte
+-   Erstellen Sie sich für dieses Projekt ein neues Repositorium in [GitHub](https://github.com/).
+-   Erstellen Sie eine aussagekräftige README Datei
+-   Klonen Sie das Repositorium in einen lokalen Ordner Ihrer Wahl
+-   Fügen Sie in das Repositorium Lehrmaterialien, etc. ein. Probieren Sie dabei grundlegende Funktionen von Git aus, die Sie heute kennen gelernt haben (z.B. Commit, Push, Pull, etc.)
+-   Überlegen Sie sich, welche weiteren Funktionen von Git (z.B. Branching, Forking) für Ihren Anwendungsfall sinnvoll sind, welche vielleicht aber eher hinderlich sind.
+
+-   Zeit: ca. 20 min
+
+## Praxis: Alternative - vorhandene Projekte entdecken
+
+-   Sollte Ihnen spontan kein geeignetes Projekt einfallen, zeigen wir Ihnen gern eigene Lehrveranstaltungen / Projekte, die wir mittels Git organisiert und umgesetzt haben.
+-   Wir berichten gern aus unserer Praxis: 
+      - Warum war die Umsetzung mittels Git für uns sinnvoll? 
+      - Welche Funktionen von Git haben wir in dem Projekt besonders geschätzt?
+
+-   Zeit: ca. 20 min
 
 # Vielen Dank! {visibility="uncounted"}
 
