@@ -29,8 +29,22 @@ format:
 library(nomnoml)
 ```
 
-## Praxisbeispiel 1
+## Praxisbeispiel 1: RMarkdown Kurs für Promovierende
 
+![](../resources/figures/RMarkdownKurs_screenshot.png){fig-align="center"}
+[https://github.com/alex-strobel/R-Markdown](https://github.com/alex-strobel/R-Markdown)
+
+## Praxisbeispiel 1: RMarkdown Kurs für Promovierende
+
+Kurs für Promovierende um den Umgang mit RMarkdown zu erlernen. Dabei gibt es verschiedene Lektionen, in denen jeweils grundlegende Funktionen / Nutzung vermittelt wird und anschließend die gelernten Aspekte in Übungen praktisch ausprobiert werden sollen. Prinzipiell würde sich das Repositorium auch eignen, um den Workshop remote, bzw. self-paced durchzuführen.
+
+Worauf haben wir Wert gelegt?
+
+- Ordnerstruktur entspricht Struktur der Lektionen und kann mittels GitHub übergeben werdenn.
+- Übergabe von Scripten an Promovierende, die einerseits Erklärungen enthalten, andererseits, aber direkt weiter bearbeitet werden können
+
+- Branching: Während des Erstellens des Kurses konnten verschiedene Personen parallel an verschiedenen Lektionen und Scripten arbeiten
+- Forking: Repositorium soll im Grundzustand erhalten bleiben, damit es für künftige Kurse immer genutzt werden kann. Gleichzeitig sollen aber alle Teilnehmenden an ihren eigenen Dateien arbeiten können (ohne, dass die anderen Teilnehmenden ihre Lösungen sehen und ohne, dass das Repositorium verändert wird).
 
 ## Praxisbeispiel 2
 
