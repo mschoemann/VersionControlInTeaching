@@ -147,7 +147,108 @@ Unser Vorschlag: [**gittyup**](https://murmele.github.io/Gittyup/)
 
 ## Branching
 
+::::: {layout="[ 90, 10 ]"}
+::: {#Text}
+**Main:** Der Hauptzweig eines Repositoriums
+
+-   teilw. auch master genannt
+-   hier liegt die stabile Version des Codes oder der Dateien
+
+**Nebenzweige**
+
+-   Zweig, der von einem bestimmten Punkt von main (oder einem anderen Branch) abgeht
+-   Änderungen sind exklusiv innerhalb des Zweigs
+-   wird genutzt, um neue Funktionen oder Teile eines Projekts zu erarbeiten, ohne main zu beeinflussen
+-   für verschiedene Branches können auf manchen Plattformen Regeln eingeführt werden (z.B. [protection rules in GitHub](https://docs.github.com/de/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/managing-a-branch-protection-rule))
+:::
+
+::: {#Bild}
+![](../resources/figures/branching.png)
+:::
+:::::
+
+## Abzweigen & Zusammenführen
+
+-   (Neuer) **Branch:** Einen neuen Branch erstellen
+-   **Checkout:** zu einem bestimmten Branch wechseln
+-   **Merge:** Branches zusammenführen
+    -   Alle Änderungen beider Branches werden zusammengeführt (d.h. der aktuellste Stand der beiden Branches)
+    -   Merging ist **nicht destruktiv**: beide Branches existieren weiterhin
+
+![](../resources/figures/branch_merge.png){fig-align="center"}
+
+## Abzweigen & Zusammenführen
+
+-   **Rebase:** die Commits eines Branchs werden nach dem letzten Commit eines anderen Zweigs angewandt
+    -   Rebasing ist destruktiv: der angefügte Branch existiert danach nicht mehr
+    -   Faustregel: Public Branches nicht rebasen!
+
+![](../resources/figures/rebase_flow.png){fig-align="center"}
+
+## Abzweigen & Zusammenführen
+
+-   **Rebase:** die Commits eines Branchs werden nach dem letzten Commit eines anderen Zweigs angewandt
+    -   Rebasing ist destruktiv: der angefügte Branch existiert danach nicht mehr
+    -   Faustregel: Public Branches nicht rebasen!
+
+![](../resources/figures/rebase.png){fig-align="center"}
+
+## Abzweigen & Zusammenführen
+
+-   **Rebase:** die Commits eines Branchs werden nach dem letzten Commit eines anderen Zweigs angewandt
+    -   Rebasing ist destruktiv: der angefügte Branch existiert danach nicht mehr
+    -   Faustregel: Public Branches nicht rebasen!
+-   **Squash:** Mehrere Commits werden in einen Commit komprimiert und dann auf einen anderen Branch rebased
+
+Mehr über [Branches](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell), [Merging vs. Rebasing](https://www.atlassian.com/git/tutorials/merging-vs-rebasing) und [Squashing]()
+
 ## Merge-Konflikte
+
+-   die Inhalte einer oder mehrerer Datei(en) unterscheiden sich zwischen zwei Branches, die gemerged werden sollen
+
+## Merge-Konflikte
+
+![](../resources/figures/BeispielDiff.png){fig-align="center"}
+
+## Merge-Konflikte
+
+![](../resources/figures/bothIncludedCropped.png){fig-align="center"}
+
+## Merge-Konflikte
+
+![](../resources/figures/GittyupDifftool.png){fig-align="center"}
+
+## Merge-Konflikte
+
+-   die Inhalte einer oder mehrerer Datei(en) unterscheiden sich zwischen zwei Branches, die gemerged werden sollen
+    -   Beide Versionen können übernommen werden (messy)
+    -   Konflikte können (zeilenweise) mit einem Difftool (Mergetool) gelöst werden
+-   **Difftool:** Befehl in der Kommandozeile & Programm zum Anzeigen und bearbeiten von Unterschieden in Dateien
+-   Konflikte können auch bei **Pulls** auftreten und ebenfalls mit einem Difftool gelöst werden
+
+Weiterlesen: - [Guide zum Lösen von Merge-Konflikten](https://www.atlassian.com/git/tutorials/using-branches/merge-conflicts) - [Guide zu Difftools](https://graphite.com/guides/comprehensive-guide-to-diff-tools) - [Dokumentation zum Difftool-Befehl](https://git-scm.com/docs/git-difftool)
+
+## Cherrypicking
+
+-   **gezieltes Auswählen einzelner Commits** aus einem Branch, um sie in einen anderen Branch zu übernehmen
+-   Kopie des Commits wird an den anderen Branch angehängt (**non-destruktiv**)
+-   Wichtig: Commits müssen gut strukturiert sein
+
+![](../resources/figures/cherrypick.png){fig-align="center"}
+
+## Ausprobieren
+
+-   Erstellen Sie einen neuen Branch in ihrem Repositorium.
+-   Ändern oder erstellen Sie eine Datei im Branch und committen sie die Veränderung im Branch. Versuchen sie dann den Branch mit dem Workshop-Branch (oder einem anderen) zu mergen.
+-   Provozieren sie einen Merge-Konflikt in zwei Branches (z.B. verschiedene Versionen der gleichen Zeile einer Datei) und lösen Sie den Konflikt in GittyUp.
+-   Bonus: Erstellen Sie sich einen weiteren zusätzlichen Branch und probieren Sie mit den beiden von Ihnen erstellten Branches Rebasing, Squashing und Cherrypicking aus.
+
+## Weitere Materialien
+
+-   [Visuelles Tutorial für Git in der Kommandozeile](https://agripongit.vincenttunru.com/)
+-   [Teaching Git von Thomas Broyer](https://blog.ltgt.net/teaching-git/)
+-   [Lehre mit Git von der Universität Zürich](https://teachingtools.uzh.ch/de/tools/teaching-with-git)
+-   [Git-Onlinedokumentation](https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F)
 
 <!-- ## Grundbegriffe -->
 
