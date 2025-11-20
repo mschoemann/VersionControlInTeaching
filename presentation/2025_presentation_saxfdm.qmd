@@ -339,12 +339,12 @@ Weiterlesen: - [Guide zum Lösen von Merge-Konflikten](https://www.atlassian.com
     <td>Commit-Historie zeigt genau, wer was wann geändert hat</td>
   </tr>
   <tr class="fragment">
-    <td><strong>Konflikte in Gruppenarbeiten</strong></td>
-    <td>Branches ermöglichen paralleles Arbeiten ohne Überschreiben</td>
+    <td><strong>Zusammenarbeit in Gruppenarbeiten</strong></td>
+    <td>Branches ermöglichen paralleles Arbeiten ohne Überschreiben, Fork ermöglicht eigenständiges Arbeiten in eigenen Versionen</td>
   </tr>
   <tr class="fragment">
     <td><strong>Datenverlust</strong></td>
-    <td>GitHub dient als zuverlässiges Online-Backup</td>
+    <td>GitHub oder GitLab dient als zuverlässiges Online-Backup</td>
   </tr>
   <tr class="fragment">
     <td><strong>Fehlende Nachvollziehbarkeit</strong></td>
@@ -352,26 +352,22 @@ Weiterlesen: - [Guide zum Lösen von Merge-Konflikten](https://www.atlassian.com
   </tr>
   <tr class="fragment">
     <td><strong>Schwierige Betreuung</strong></td>
-    <td>Pull Requests erleichtern Feedback, Review & Fortschrittskontrolle</td>
+    <td>Pull Requests erleichtern Übergabe von Daten und Dateien, Feedback, Review & Fortschrittskontrolle</td>
   </tr>
 </table>
+
+## Herausforderungen
+
+- Neue Begriffe und Abläufe
+- Anfangs ungewohnt (für einen selber und für Kolleg:innen)
+- Unterschiedliches Verhalten von Git-Tools auf verschiedenen Betriebssystemen
+- Mit guter Software (GittyUp) wird der Einstieg deutlich leichter
 
 <div class="fragment">
 <br>
 <h3><strong>Fazit</strong></h3>
 <p><strong>Git bringt Ordnung, Transparenz und kollaborative Effizienz – ideal für Lehre, Projekte und Abschlussarbeiten.</strong></p>
 </div>
-
----
-## Herausforderungen
-
-- Neue Begriffe und Abläufe
-- Anfangs ungewohnt
-- Unterschiedliches Verhalten von Git-Tools auf verschiedenen Betriebssystemen
-- Mit guter Software (GittyUp) wird der Einstieg deutlich leichter
-
-## Fazit
-**Git schafft Ordnung, Transparenz und zuverlässige Zusammenarbeit – ideal für Lehre und Abschlussarbeiten.**
 
 # {{< bi wrench-adjustable-circle-fill >}} Praxis
 
