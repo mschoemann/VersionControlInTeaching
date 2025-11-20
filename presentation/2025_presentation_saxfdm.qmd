@@ -475,6 +475,66 @@ Weiterlesen: - [Guide zum Lösen von Merge-Konflikten](https://www.atlassian.com
 ---
 # {{< bi suitcase-lg-fill >}} Wrap-up
 
+<!-- Wird noch mit Motivationsfolie abgeglichen -->
+
+### Probleme vs. Lösungen in Lehrveranstaltungen & Abschlussarbeiten
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+### **Herausforderungen**
+- **Versionschaos**  
+  Verschiedene Dateiversionen auf unterschiedlichen Geräten.
+
+- **Unklare Verantwortlichkeiten**  
+  Schwer nachvollziehbar, wer was geändert hat.
+
+- **Konflikte in Gruppenarbeiten**  
+  Änderungen überschreiben sich gegenseitig.
+
+- **Datenverlust**  
+  Dateien werden versehentlich gelöscht oder überschrieben.
+
+- **Keine Nachvollziehbarkeit**  
+  Entwicklungs- und Arbeitsprozesse sind später nicht rekonstruierbar.
+
+- **Schwierige Betreuung**  
+  Feedback und Überprüfung von Arbeitsständen sind mühsam.
+
+:::
+
+::: {.column width="50%"}
+
+### **Git-Lösungen**
+- **Zentrale Versionskontrolle**  
+  Alle arbeiten an derselben Projektbasis – keine Dateiduplikate.
+
+- **Commit-Historie**  
+  Jeder Schritt ist dokumentiert inkl. Autor und Zeitpunkt.
+
+- **Branches für paralleles Arbeiten**  
+  Gruppenmitglieder arbeiten nebeneinander ohne sich zu stören.
+
+- **Remote-Backups auf GitHub**  
+  Arbeit ist jederzeit gesichert und wiederherstellbar.
+
+- **Transparente Änderungsverläufe**  
+  Arbeitsprozesse lassen sich lückenlos nachvollziehen.
+
+- **Pull Requests & Reviews**  
+  Betreuende können strukturiert kommentieren und Änderungen prüfen.
+
+:::
+
+::::
+
+---
+
+### Fazit
+**Git bringt Ordnung, Transparenz und Teamfähigkeit – perfekte Grundlage für strukturierte Lehre und erfolgreiche Abschlussarbeiten.**
+
+
 
 # {{< bi wrench-adjustable-circle-fill >}} Praxis
 
