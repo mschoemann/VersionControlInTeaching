@@ -6,7 +6,7 @@
 
 # Quarto
 *.yml
-_extensions/
+#_extensions/
 /.quarto/
 
 **/*.quarto_ipynb
