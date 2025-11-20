@@ -65,9 +65,26 @@ Worauf haben wir Wert gelegt?
 :::
 ::::::
 
-## Praxisbeispiel 3
+## Praxisbeispiel 3: Betreuung einer Abschlussarbeit
 
+:::::: {layout="[ 70, 30 ]"}
 
+::: {#Text}
+Die Abschlussarbeit hat sich mit einer Teilfragestellung unserer Studie befasst. Initial war die Idee, das Repositorium zu klonen, unser Study hat es am Ende geforkt und wir waren Mitglieder in seinem Repo und konnten Materialien für Code Review und Feedback darüber abrufen.
 
+Worauf haben wir Wert gelegt?
 
+- die Ordnerstruktur war von uns vorgegeben und hat sich an der Studie orientiert
+- bestehende Analyseskripte, die unser Study nutzen sollte, waren bereits vorhanden
+- Rücktransfer von Code in das Studienrepositorium per Pull Request möglich
+- Studienrepositorium wurde nicht von der Fork beeinflusst
+
+:::
+
+::: {#Bild}
+
+![](../resources/figures/beispiel3.png){fig-align="center"}
+
+::: 
+::::::
 
