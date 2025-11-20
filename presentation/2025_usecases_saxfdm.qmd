@@ -46,8 +46,24 @@ Worauf haben wir Wert gelegt?
 - Branching: Während des Erstellens des Kurses konnten verschiedene Personen parallel an verschiedenen Lektionen und Scripten arbeiten
 - Forking: Repositorium soll im Grundzustand erhalten bleiben, damit es für künftige Kurse immer genutzt werden kann. Gleichzeitig sollen aber alle Teilnehmenden an ihren eigenen Dateien arbeiten können (ohne, dass die anderen Teilnehmenden ihre Lösungen sehen und ohne, dass das Repositorium verändert wird).
 
-## Praxisbeispiel 2
+## Praxisbeispiel 2: Kollaborative Entwicklung von Lehrmaterialien
 
+:::::: {layout="[ 70, 30 ]"}
+::: {#Text}
+- Verwaltung von Lehrmaterialien in einem Seminar mit mehreren Dozierenden (Alternative zu Cloudstorage)
+- Einsicht auf Nachfrage
+
+Worauf haben wir Wert gelegt?
+
+- gemeinsame und sinnvolle Ordnerstruktur
+- gemeinsame Nutzung von Materialien bei individueller Foliengestaltung
+- semesterübergreifende Bearbeitung ist ohne Dateienredundanz möglich (checkout alter Commits jederzeit möglich)
+:::
+
+::: {#Bild}
+![](../resources/figures/SeminarPP_beispiel.png){fig-align="center"}
+:::
+::::::
 
 ## Praxisbeispiel 3
 
