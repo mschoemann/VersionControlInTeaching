@@ -236,6 +236,18 @@ Weiterlesen: - [Guide zum Lösen von Merge-Konflikten](https://www.atlassian.com
 
 ![](../resources/figures/cherrypick.png){fig-align="center"}
 
+## Forking
+
+- **Fork:** Kopieren eines fremden Repositoriums 
+    - Erstellt eine eigene unabhängige Version 
+    - Änderungen können per **Pull Request** an das Original-Repositorium zurückgegeben werden
+- **Nutzung:**
+    - Zu anderen Projekten beitragen, in denen man keine Schreibrechte hat
+    - Ausgehend vom Original eine eigene Version des Projekts erstellen
+- Mehr zu Forks auf [GitHub](https://docs.github.com/de/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) und [Atlassian](https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow)
+
+![](../resources/figures/fork.png){fig-align="center"}
+
 ## Ausprobieren
 
 -   Erstellen Sie einen neuen Branch in ihrem Repositorium.
