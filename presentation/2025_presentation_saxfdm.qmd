@@ -348,7 +348,7 @@ Weiterlesen:
 
 <p><strong>Git bringt Ordnung, Transparenz und kollaborative Effizienz – ideal für Lehre, Projekte und Abschlussarbeiten.</strong></p>
 
-
+![](../resources/figures/BabyYoda_Fork.png){fig-align="center"}
 
 # {{< bi wrench-adjustable-circle-fill >}} Praxis
 
