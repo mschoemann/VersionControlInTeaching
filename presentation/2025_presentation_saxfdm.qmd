@@ -346,7 +346,6 @@ Weiterlesen:
 
 ## Fazit
 
-<h3><strong>Fazit</strong></h3>
 <p><strong>Git bringt Ordnung, Transparenz und kollaborative Effizienz – ideal für Lehre, Projekte und Abschlussarbeiten.</strong></p>
 
 
