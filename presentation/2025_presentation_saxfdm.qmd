@@ -35,16 +35,52 @@ library(nomnoml)
 <!-- # {{< bi emoji-activity >}} Kennenlernen -->
 # {{< bi person-hearts >}} Kennenlernen
 
+## {{< bi check-square-fill >}} Check-in
+
+-  Wer bist Du?
+-  Was erwartest Du?
+-  Hast Du die Vorarbeiten gemacht?
+    -  install: git, Gittyup
+    -  make: GitHub-Account
+
 # {{< bi aspect-ratio-fill >}} Motivation
 
+## Ausgangspunkt
+### Lehre in den Social Sciences
 
-## Warum Git? (mache ich noch; MS)
+<table>
+  <tr class="fragment">
+    <td><strong>Projekte datenlastig</strong></td>
+    <td>Experimental-/Surveydaten, Skripte/Modelle, Text</td>
+  </tr>
+  <tr class="fragment">
+    <td><strong>Projekte kooperationslastig</strong></td>
+    <td>paralleles Arbeiten, gegenseitiges Überprüfen</td>
+  </tr>
+  <tr class="fragment">
+    <td><strong>Wichtigkeit von Open Science und FDM</strong></td>
+    <td>Reproduzierbarkeit, Open Data/..., FAIR-Prinzipien</td>
+  </tr>
+  <tr class="fragment">
+    <td><strong>Studys technikavers</strong></td>
+    <td>keine/wenig Medienkompetenz, keine Datenkompetenz</td>
+</table>
 
-- Änderungen nachvollziehen  
-- Zu früheren Versionen zurückspringen  
-- Zusammenarbeit erleichtern  
-- Vermeidung von Dateien wie:  
-  `projekt_final.docx`, `projekt_final_final.docx`, `wirklich_final.docx`
+<div class="fragment">
+<br>
+<h3><strong>Herausforderung</strong></h3>
+<p><strong>Das muss irgendwie Einklang gebracht werden {{< bi emoji-grimace-fill >}}</strong></p>
+</div>
+
+
+<!-- ## Warum Git? (mache ich noch; MS) -->
+
+<!-- - Änderungen nachvollziehen   -->
+<!-- - Zu früheren Versionen zurückspringen   -->
+<!-- - Zusammenarbeit erleichtern   -->
+<!-- - Vermeidung von Dateien wie:   -->
+<!--   `projekt_final.docx`, `projekt_final_final.docx`, `wirklich_final.docx` -->
+
 
 # Versionkontrolle mit git
 
@@ -327,7 +363,7 @@ Weiterlesen:
 ---
 # {{< bi suitcase-lg-fill >}} Wrap-up
 
-<!-- Wird noch mit Motivationsfolie abgeglichen -->
+<!-- Wird noch mit Motivationsfolie abgeglichen; DONE weil Motivation hieran angepasst :) -->
 
 ## Probleme und passende Lösungen
 
