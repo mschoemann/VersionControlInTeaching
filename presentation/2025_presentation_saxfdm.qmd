@@ -187,8 +187,8 @@ Unser Vorschlag: [**gittyup**](https://murmele.github.io/Gittyup/)
 
 ### Grundlagen ausprobieren
 
-- Klonen Sie das Git-Repositorium für diesen Workshop in einen lokalen Ordner Ihrer Wahl [https://github.com/mschoemann/tud-psy-rcourse.git](https://github.com/mschoemann/tud-psy-rcourse.git).  
-Wechseln Sie über gittyup in den Branch *Workshop*.
+- Klonen Sie das Git-Repositorium für diesen Workshop in einen lokalen Ordner Ihrer Wahl [https://github.com/mschoemann/VersionControlInTeaching.git](https://github.com/mschoemann/VersionControlInTeaching.git).  
+Wechseln Sie über gittyup in den Branch *workshop*.
 - Erstellen Sie eine Textdatei ^[ideal sind non-binary Dateien wie z.B. `.txt` oder `.md`, da git die Änderungen in diesen direkt und zeilenweise anzeigen kann. Es funktioniert aber grundsätzlich jedes Dateiformat] mit beliebigem Namen im Unterordner `./WS_Folder/`
 - Schreiben Sie etwas in die Textdatei und erstellen Sie einen Commit mit einer aussagekräftigen Commit-Nachricht ^[Hierfür gibt es Style-Tips, z.B. [https://cbea.ms/git-commit/](https://cbea.ms/git-commit/)]
 - Nehmen Sie Änderungen in der Datei vor und/oder erstellen Sie zusätzliche Dateien.  
