@@ -365,47 +365,26 @@ Weiterlesen:
 
 <!-- Wird noch mit Motivationsfolie abgeglichen; DONE weil Motivation hieran angepasst :) -->
 
-## Probleme und passende Lösungen
-
-<table>
-  <tr class="fragment">
-    <td><strong>Versionschaos</strong></td>
-    <td>Zentrale Versionskontrolle sorgt für eine gemeinsame Basis</td>
-  </tr>
-  <tr class="fragment">
-    <td><strong>Unklare Verantwortlichkeiten</strong></td>
-    <td>Commit-Historie zeigt genau, wer was wann geändert hat</td>
-  </tr>
-  <tr class="fragment">
-    <td><strong>Zusammenarbeit in Gruppenarbeiten</strong></td>
-    <td>Branches ermöglichen paralleles Arbeiten ohne Überschreiben, Fork ermöglicht eigenständiges Arbeiten in eigenen Versionen</td>
-  </tr>
-  <tr class="fragment">
-    <td><strong>Datenverlust</strong></td>
-    <td>GitHub oder GitLab dient als zuverlässiges Online-Backup</td>
-  </tr>
-  <tr class="fragment">
-    <td><strong>Fehlende Nachvollziehbarkeit</strong></td>
-    <td>Vollständige Historie macht Arbeitsprozesse transparent</td>
-  </tr>
-  <tr class="fragment">
-    <td><strong>Schwierige Betreuung</strong></td>
-    <td>Pull Requests erleichtern Übergabe von Daten und Dateien, Feedback, Review & Fortschrittskontrolle</td>
-  </tr>
-</table>
-
 ## Herausforderungen
 
-- Neue Begriffe und Abläufe
-- Anfangs ungewohnt (für einen selber und für Kolleg:innen)
-- Unterschiedliches Verhalten von Git-Tools auf verschiedenen Betriebssystemen
-- Mit guter Software (GittyUp) wird der Einstieg deutlich leichter
+- Neue Routinen: Abläufe müssen umgestellt werden, Begriffe müssen verinnerlicht werden - Anfangs kann das ganz schön einschüchternd wirken
+- Fehlende Übung und Verständnis: Kolleg:innen und Studierende müssen Git wiederholt praktisch Anwenden, um die Funktionsweise von Git wirklich zu verstehen und sich sicher im Umgang damit zu fühlen
+- Konfiguration: Bei fehlerhafter Konfiguration können unerwünschte Probleme auftreten und der Lernprozess beeinträchtigt werden
+- Verwaltung des Zugangs und der Berechtigungen: Die Einrichtung von Konten und die Verwaltung von Zugriffsrechten für Studierende kann administrativen Aufwand verursachen
 
-<div class="fragment">
-<br>
-<h3><strong>Fazit</strong></h3>
+## Vorteile
+
+- Zusammenarbeit: Git ermöglicht es mehreren Personen, gleichzeitig an einem Projekt zu arbeiten, wobei Änderungen effizient zusammengeführt werden können. Je nach Anwendungsfall können Branches oder Forks genutzt werden
+- Versionskontrolle: Studierende oder Lehrende können jederzeit zu früheren Versionen von Dateien oder des gesamten Projekts zurückkehren
+- Backup und Übergabe: Github bzw. GitLab dient als Online-Backup und erleichtert eine Übergabe von Daten und Dateien
+- Lernfortschritt: Lehrkräfte können den Fortschritt der Studierenden anhand der Commit-Historie nachvollziehen und Feedback zu spezifischen Änderungen geben, außerdem sind Arbeitsprozesse durch die vollständige Historie transparent
+- Praktische Fähigkeiten: Der Umgang mit Git und vergleichbaren Programmen wird in nahezu allen Berufsfelder immer wichtiger - darauf werden die Studierenden frühzeitig vorbereitet
+
+## Fazit
+
 <p><strong>Git bringt Ordnung, Transparenz und kollaborative Effizienz – ideal für Lehre, Projekte und Abschlussarbeiten.</strong></p>
-</div>
+
+
 
 # {{< bi wrench-adjustable-circle-fill >}} Praxis
 
